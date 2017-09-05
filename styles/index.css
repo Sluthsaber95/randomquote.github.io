@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+}
+
+#main-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 700px;
+    width: 100%;
+    background-color: skyblue;
+}
+
+#victorian-frame {
+    position: absolute;
+    height: 400px;
+    width: 600px;
+}
+
+#quote-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 600px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#random-quote {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+}
+
+#interactive-container {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    background-color: silver;
+}
+
+#receive-request {
+    margin-top: 1em;
+    height: 3em;
+    width: 10em;
+    border-radius: 10px;
+    border: 0;
+    background-color: white;
+}
+
+#twitter-icon {
+    height: 50px;
+}
